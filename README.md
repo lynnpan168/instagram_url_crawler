@@ -1,5 +1,5 @@
 # instagram_url_crawler
-Except for Crawler 2, the crawling part of this repository is from [huaying/instagram-crawler](https://github.com/huaying/instagram-crawler)
+Except for Crawler 2, the crawling part of this repository is from [huaying/instagram-crawler](https://github.com/huaying/instagram-crawler) for getting the url. Because huaying's work of hashtag mode is not crawling the full metadata of the post. This repository is adding the Crawler 2 part for getting the content, likes, img... in the post.
 
 Below is what you can do with this program:
 - Get Instagram posts/profile/hashtag data without using Instagram API. `crawler.py`
