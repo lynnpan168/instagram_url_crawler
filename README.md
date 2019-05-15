@@ -1,8 +1,10 @@
 # instagram_url_crawler
+Except for Crawler 2, the crawling part of this repository is from [huaying/instagram-crawler](https://github.com/huaying/instagram-crawler)
 
 Below is what you can do with this program:
 - Get Instagram posts/profile/hashtag data without using Instagram API. `crawler.py`
 - Like posts automatically. `liker.py`
+- Get full metadata from hashtag mode url. `recrawl_url.py`
 
 This crawler could fail due to updates on instagram’s website. If you encounter any problems, please contact me.
 
@@ -12,7 +14,7 @@ This crawler could fail due to updates on instagram’s website. If you encounte
 3. Install Selenium: `pip install -r requirements.txt`
 4. `cp inscrawler/secret.py.dist inscrawler/secret.py`
 
-## Crawler
+## Crawler 1
 ### Usage
 ```
 positional arguments:
@@ -49,6 +51,9 @@ The data format of `posts`:
 
 The data format of `posts_full`:
 <img width="1123" alt="Screen Shot 2019-03-17 at 11 02 24 PM" src="https://user-images.githubusercontent.com/3991678/54510055-1c4f4080-4909-11e9-8d06-8c35a08fb74e.png">
+
+## Crawler 2
+After getting the output file from crawler 1, run `recrawl_url.py` for getting metadata from the instagram url.
 
 
 ## Liker
