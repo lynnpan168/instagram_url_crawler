@@ -54,6 +54,15 @@ The data format of `posts_full`:
 
 ## Crawler 2
 After getting the output file from crawler 1, run `recrawl_url.py` for getting metadata from the instagram url.
+This crawler only focus on the top 2 poster message. If the poster leave hashtag or content out of the top 2 message, the data of hashtag/content will be None.
+
+Metadata contain:
+1. hashtag
+2. content : message include hashtag
+3. likes
+4. datetime
+5. img_desc : image description. Same as the caption data we get from Crawler 1, but in Chinese.
+6. img_url
 
 
 ## Liker
