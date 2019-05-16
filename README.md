@@ -3,7 +3,7 @@ Except for Crawler 2, the crawling part of this repository is from [huaying/inst
 
 Below is what you can do with this program:
 - Get Instagram posts/profile/hashtag data without using Instagram API. `crawler.py`
-- Get full metadata from hashtag mode url. `recrawl_url.py`
+- Get full metadata from instagram url that get from hashtag mode. `recrawl_url.py`
 
 This crawler could fail due to updates on instagram’s website. If you encounter any problems, please contact me.
 
