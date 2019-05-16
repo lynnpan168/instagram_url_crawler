@@ -48,10 +48,9 @@ python crawler.py hashtag -t taiwan -o ./output
 The data format of `posts`:
 ![screen shot 2018-10-11 at 2 33 09 pm](https://user-images.githubusercontent.com/3991678/46835356-cd521d80-cd62-11e8-9bb1-888bc32af484.png)
 
-The data format of `posts_full`:
-<img width="1123" alt="Screen Shot 2019-03-17 at 11 02 24 PM" src="https://user-images.githubusercontent.com/3991678/54510055-1c4f4080-4909-11e9-8d06-8c35a08fb74e.png">
-
 ## Crawler 2
+- Install : put your hashtag mode output file(json) in instagram_url_crawler folder, and name it as 'output'.
+
 After getting the output file from crawler 1, run `recrawl_url.py` for getting metadata from the instagram url.
 This crawler only focus on the top 2 poster message. If the poster leave hashtag or content out of the top 2 message, the data of hashtag/content will be None.
 
