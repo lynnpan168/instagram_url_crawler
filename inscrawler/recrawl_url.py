@@ -6,7 +6,7 @@ import urllib.request
 from itertools import chain
 
 # open chorme driver
-driver = webdriver.Chrome(executable_path="C:/Users/Lynn/Desktop/SOA/chromedriver")
+driver = webdriver.Chrome(executable_path="./inscrawler/bin/chromedriver")
 
 # read in the output file that we get from instagrame-craler-master hashtage mode service
 df = pd.read_json('output')
