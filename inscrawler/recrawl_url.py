@@ -2,7 +2,6 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 import time
 import pandas as pd
-import urllib.request
 from itertools import chain
 
 # open chorme driver
