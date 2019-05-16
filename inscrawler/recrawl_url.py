@@ -64,3 +64,5 @@ def crawler(row):
 df = df.apply(crawler,axis=1)
 
 df.to_csv('output_df.csv')
+
+driver.close()
