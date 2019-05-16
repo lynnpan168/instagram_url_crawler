@@ -63,20 +63,3 @@ Metadata contain:
 4. datetime
 5. img_desc : image description. Same as the caption data we get from Crawler 1, but in Chinese.
 6. img_url
-
-
-## Liker
-![Liker Preivew](https://user-images.githubusercontent.com/3991678/41560884-4bbd42d2-72fd-11e8-8d56-84e7cf7187cd.gif)
-
-
-Set up your username/password in `secret.py` or set them as environment variables.
-
-### Usage
-```
-positional arguments:
-  tag
-
-optional arguments:
-  -n NUMBER, --number NUMBER (default 1000)
-                        number of posts to like
-```
