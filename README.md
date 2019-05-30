@@ -51,8 +51,8 @@ The data format of `posts`:
 ## Crawler 2
 - Install : put your hashtag mode output file(json) in instagram_url_crawler folder, and name it as 'output'.
 
-After getting the output file from crawler 1, run `recrawl_url.py` for getting metadata from the instagram url.
-This crawler only focus on the top 2 poster message. If the poster leave hashtag or content out of the top 2 message, the data of hashtag/content will be None.
+After getting the output file from crawler 1, run `python recrawl_url.py` in terminal for getting metadata from the instagram url.
+This crawler only focus on the top 2 poster message. If the poster leave hashtag or content out of the top 2 message, the data of hashtag/content will be None. You will get `output_df.csv` as your final output file in the folder.
 
 Metadata contain:
 1. hashtag
