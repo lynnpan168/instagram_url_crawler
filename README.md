@@ -55,9 +55,10 @@ After getting the output file from crawler 1, run `python inscrawler/recrawl_url
 This crawler only focus on the top 2 poster message. If the poster leave hashtag or content out of the top 2 message, the data of hashtag/content will be None. You will get `output_df.csv` as your final output file in the folder.
 
 Metadata contain:
-1. hashtag
-2. content : message include hashtag
-3. likes
-4. datetime
-5. img_desc : image description. Same as the caption data we get from Crawler 1, but in Chinese.
-6. img_url
+1. user name 
+2. hashtag
+3. content : message include hashtag
+4. likes
+5. datetime
+6. img_desc : image description. Same as the caption data we get from Crawler 1, but in Chinese.
+7. img_url
